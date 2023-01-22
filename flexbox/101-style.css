@@ -1,0 +1,47 @@
+:root {
+    --box1-bg-color: #24342e;
+    --box2-bg-color: #2391ae;
+    --box3-bg-color: #431eda;
+    --box4-bg-color: #aed51e;
+    --box5-bg-color: #ffee16;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+  
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: inline;
+    border: 2px solid black;
+}
+
+.box1 {
+    background: var(--box1-bg-color);
+}
+
+.box2 {
+    background: var(--box2-bg-color);
+}
+
+.box3 {
+    background: var(--box3-bg-color);
+}
+
+.box4 {
+    background: var(--box4-bg-color);
+}
+
+.box5 {
+    background: var(--box5-bg-color);
+}
