@@ -802,12 +802,12 @@ input:not(:placeholder-shown) ~ .form-field-icon::after {
   }
 
   /*** SEARCH FORM ***/
+  
   .form-search {
     display: block;
     padding: .5rem 0;
     position: relative;
   }
-
   .form-search .search-button {
     display: inline-block;
     background: transparent;
@@ -815,13 +815,11 @@ input:not(:placeholder-shown) ~ .form-field-icon::after {
     margin: 0;
     padding: 0;
   }
-
-  .form-search .search-button .search-icon {
+  .search-button .search-icon {
     fill: var(--color-white);
     width: 1.5rem;
     height: 1.5rem;
   }
-
   .form-search input[type="search"] {
     display: inline-block;
     color: var(--color-white);
@@ -835,9 +833,8 @@ input:not(:placeholder-shown) ~ .form-field-icon::after {
     background: none;
     cursor: pointer;
     z-index: 3;
-    transition: width .4s cubic-bezier(0, 0.795, 0 , 1);
+    transition: width .4s cubic-bezier(0, 0.795, 0, 1);
   }
-
   .form-search input[type="search"]:focus {
     position: relative;
     width: 15rem;
