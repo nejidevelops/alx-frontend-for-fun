@@ -1,0 +1,37 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+    color: #8a153a;
+    cursor: pointer;
+}
+
+a::before {
+    content: '';
+    bottom: 0;
+    width: 0;
+    height: .1rem;
+    position: absolute;
+    transition: .9s cubic-bezier(0.17, 0.67, 0 ,1.01);
+}
+  
+a:hover::before {
+    left: 0;
+    background-color: #8a153a;
+    width: 100%;
+}
+  
