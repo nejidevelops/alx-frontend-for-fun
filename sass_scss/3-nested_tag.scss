@@ -1,0 +1,13 @@
+//  Declaring margin to be used by the <p> tags
+$body-padding: 0;
+$body-margin: 0;
+$p-margin: 10px;
+
+body {
+    margin: $body-margin;
+    padding: $body-padding;
+
+    p {
+        margin: $p-margin;
+    }
+}
