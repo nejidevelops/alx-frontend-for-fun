@@ -1,5 +1,7 @@
-$primary-color: #3D3D3D;
+// Define the Sass variable for the text color
+$text-color: #3D3D3D;
 
-body, p{
-    color: $primary-color;
+// Apply the text color to the body and p tags
+body, p {
+  color: $text-color;
 }
