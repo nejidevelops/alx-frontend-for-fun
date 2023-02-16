@@ -1,9 +1,12 @@
 // nested hover
 
-body {
-    color: #ff0000;
+$text-color: #ff0000;
+$text-hover: #00ff00;
 
-    button:hover {
-        color: #00ff00;
+button {
+    color: $text-color;
+
+    &:hover {
+        color: $text-hover;
     }
 }
