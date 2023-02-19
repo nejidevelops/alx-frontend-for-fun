@@ -1,5 +1,5 @@
 // Define a list variable
-$list_to_sort: 'john', 'anna', 'zoe', 'kim', 'felicia', 'carrie';
+$list_to_sort: john anna zoe kim felicia carrie;
 
 // Sort the list using the `sort()` function
 $list_sorted: sort($list_to_sort);
