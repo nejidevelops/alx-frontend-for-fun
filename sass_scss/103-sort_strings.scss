@@ -1,0 +1,8 @@
+// Define a list variable
+$list_to_sort: 'john', 'anna', 'zoe', 'kim', 'felicia', 'carrie';
+
+// Sort the list using the `sort()` function
+$list_sorted: sort($list_to_sort);
+
+// Print the sorted list in the debug output
+@debug "Sorted List: #{$list_sorted}";
