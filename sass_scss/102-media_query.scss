@@ -11,7 +11,7 @@ h1 {
     @media (max-width: 320px){
         font-size: 14px;
 
-        .small {
+        &.small {
             color: #1D1D1D;
         }
     }
